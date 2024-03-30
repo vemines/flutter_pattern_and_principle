@@ -36,7 +36,6 @@ class LightState {
 }
 
 void main(List<String> args) {
-  final LightState lightState =
-      LightState(StatusOff()); // lightState.state = StatusOff
+  final LightState lightState = LightState(StatusOff()); // lightState.state = StatusOff
   lightState.trigger(); // lightState.state = StatusOn
 }""";

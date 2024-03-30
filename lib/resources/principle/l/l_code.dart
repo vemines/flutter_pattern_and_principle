@@ -38,7 +38,7 @@ class Car extends Vehicle {
 }
 
 void main() {
-  Vehicle vehicle =      Car(); // Car object to a Vehicle reference (subtype to supertype)
+  Vehicle vehicle = Car(); // Car object to a Vehicle reference (subtype to supertype)
   vehicle.startEngine(); //Car engine started(consistent behavior)
 
   // Functionality specific to Car can only be used when the reference is of the actual Car type

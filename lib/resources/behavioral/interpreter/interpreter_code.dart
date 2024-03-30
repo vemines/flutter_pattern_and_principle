@@ -34,6 +34,5 @@ class Subtract extends Expression {
 }
 
 void main(List<String> args) {
-  Expression expression =
-      Plus(Subtract(Number(5), Number(10)), Number(20)); // 15
+  Expression expression = Plus(Subtract(Number(5), Number(10)), Number(20)); // 15
 }""";

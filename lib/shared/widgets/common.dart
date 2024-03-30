@@ -74,7 +74,7 @@ class ListItemWidget extends StatelessWidget {
                   ),
                 ),
                 gapS(),
-                Flexible(child: Text(text, style: context.bodyStyle)),
+                Flexible(child: SelectableText(text, style: context.bodyStyle)),
               ],
             ),
           )
@@ -108,7 +108,7 @@ class ListItemBoldWidget extends StatelessWidget {
                 ),
                 gapS(),
                 Flexible(
-                  child: Text.rich(
+                  child: SelectableText.rich(
                     TextSpan(
                       text: entry.key,
                       style: context.bodyBoldStyle,

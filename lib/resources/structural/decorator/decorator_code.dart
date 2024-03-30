@@ -44,7 +44,8 @@ class DecoratorSquare2 implements Shape {
   double calcSquare() => square.calcSquare();
 }
 
-// Usag
-Square square = Square(10);
-square = DecoratorSquare1(square)..incLength(5);
-square = DecoratorSquare2(square)..incLength(5);""";
+void main(List<String> args) {
+  Square square = Square(10);
+  square = DecoratorSquare1(square)..incLength(5);
+  square = DecoratorSquare2(square)..incLength(5);
+}""";

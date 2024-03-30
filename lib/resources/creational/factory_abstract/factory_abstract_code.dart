@@ -20,7 +20,8 @@ class ClassProduceFactory implements AbstractClassFactory {
     throw Class2();
   }
 }
-
-ClassProduceFactory classProduceFactory = ClassProduceFactory();
-Class1 class1 = classProduceFactory.produceClass1();
-Class2 class2 = classProduceFactory.produceClass2();""";
+void main(List<String> args) {
+  ClassProduceFactory classProduceFactory = ClassProduceFactory();
+  Class1 class1 = classProduceFactory.produceClass1();
+  Class2 class2 = classProduceFactory.produceClass2();
+}""";

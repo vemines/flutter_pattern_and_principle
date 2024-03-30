@@ -4,7 +4,7 @@ const String singletonCode1 = """class MyClass1 {
 }
 
 void main(List<String> args) {
-  MyClass1 two = MyClass1.instance;
+  MyClass1 myClass1 = MyClass1.instance;
 }""";
 
 const String singletonCode2 = """class MyClass2 {
@@ -14,5 +14,5 @@ const String singletonCode2 = """class MyClass2 {
 }
 
 void main(List<String> args) {
-  MyClass2 one = MyClass2();
+  MyClass2 myClass2 = MyClass2();
 }""";
